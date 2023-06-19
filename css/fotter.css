@@ -1,0 +1,367 @@
+.box13{
+    width: 100%;
+    height: 196px;
+    background:url(../images/images_product/down_bg@2x.png) no-repeat;
+    background-size:100%;
+    overflow-y: hidden;
+
+}
+.box13-txt1{
+    width: 264px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#ffffff;
+    opacity:1;
+    font-family: 苹方-简;
+    display:block;
+    margin:20px auto;
+}
+.box13-left{
+    height: 48px;
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 auto;
+    margin-top:20px;
+    justify-content:space-between;
+} 
+.leftt{
+    width: 137px;
+    margin-left:56px;
+}
+.rightt{
+    width: 100px;
+    height: 100%;
+    margin-left:-18px;
+}
+.leftup{
+    display:flex;
+
+} 
+.shenqing{
+    display:block;
+    text-align:center;
+    width: 78px;
+    height: 36px;
+    background:#ffffff;
+    box-shadow:0px 3px 6px rgba(0,0,0,0.1600);
+    opacity:1;
+    border-radius:4px;
+    margin:0 auto;
+    margin-top:17px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0px;
+    color:#2e2e2e;
+    opacity:1;
+}
+
+.logo{
+    width: 93px;
+    height: 30px;
+    margin-top:27px;
+    margin-left:48px;
+    background:url(../images/jimulogo2.png) no-repeat; 
+    background-size: 100%;
+}
+.logo1{
+    background:url(../images/box12-1.png) no-repeat;
+    background-size: 100%;
+}
+/* .logo2{
+    background:url(../images/box12-2x.png) no-repeat;
+    background-size: 100%;
+} */
+.logo3{
+    background:url(../images/box12-3x.png) no-repeat;
+    background-size: 100%;
+}
+.logo4{
+    background:url(../images/box12-4x.png) no-repeat;
+    background-size: 100%;
+}
+.smalllogo{
+    display:block;
+    width: 16px;
+    height: 16px;
+    margin-right:8px;
+}
+.smalltxt{
+    width: 112px;  
+     height: 20px;  
+     font-size:14px;
+     font-weight: 400;
+     color:#ffffff;
+     opacity:1;
+     display:block;
+    
+ }
+ .smalltxt2{
+     width: 70px;
+     height: 20px;
+     font-size:14px;
+     font-weight: 400;
+     color:#ffffff;
+     opacity:1;
+     display:block;
+    
+ }
+ .box14{
+    display:flex;
+    margin:0 auto;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    height: 896px;
+    background-color:#0c1a28;
+    overflow-y: hidden;
+
+}
+.box14-up{
+    height: 148px;
+    width: 100%;
+    margin-top:50px;
+    display:flex;
+}
+.upul{
+    flex:1;
+    height: 100%;
+    margin-right:40px;
+    margin:0 auto;
+    margin-left:48px;
+    width: 111px;
+
+}
+.downul{
+    flex:1;
+    height: 100%;
+    width: 111px;
+}
+.box14-down{
+    margin-top:28px;
+    width: 100%;
+    height: 255px;
+    display:flex;
+}
+.box14 li{
+    height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0px;
+    color:#ffffff;
+    opacity:0.6;
+    margin-top:13px;
+    font-family: 苹方-简;
+}
+.box14 .box14-txt{
+    height: 20px;
+    font-size: 14px;
+    line-height: 0px;
+    color:#ffffff;
+    opacity:1;
+}
+.box14 .box14-txt2{
+    width: 100%;
+    height: 34px;
+    line-height:17px;
+    margin-top:13px;
+
+}
+.bottomlogo{
+    width: 93px;
+    height: 30px;
+    margin-top:27px;
+    margin-left:48px;
+    background:url(../images/jimulogo2.png) no-repeat; 
+    background-size: 100%;
+}
+.lianxi{
+    width: 375px;
+    height: 230px;
+    display:flex;
+    margin-top:9px;
+}
+.lianxi li{
+    margin:0 auto;
+    width: 120px;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+}
+.lianxi .left1{
+    font-size: 12px;
+    font-weight: 400;
+    color:#ffffff;
+    opacity:0.6;
+    margin-top:10px;
+    font-family: 苹方-简;
+    margin-top:17px;
+    text-align:center;
+
+}
+.lianxi .right1{
+    font-size: 12px;
+    font-weight: 400;
+    color:#ffffff;
+    opacity:0.6;
+    margin-top:10px;
+    font-family: 苹方-简;
+    margin-top:17px;
+}
+.lianxi-left:nth-child(-n+2){
+    margin-left:20px;
+}
+.erweima{
+    width: 120px;
+    height: 120px;
+    background:url(../images/gzh.png) no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    padding:0;
+}
+.gzh{
+    width: 120px;
+    height: 120px;
+    background:url(../images/wxh.png) no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    padding:0;
+} 
+.guanzhu{
+    margin-top:10px;
+    text-align: center;
+}
+
+.localup{
+   width: 333px;
+    height: 28px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    color:#ffffff;
+    /* letter-spacing:120px;  */
+    opacity: 0.5;
+    font-family: 苹方-简;
+    text-align:center;
+    margin:0 auto;
+     margin-bottom:15px;
+    opacity:0.6; 
+}
+.local-local{
+    height: 48px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    color:#ffffff;
+    opacity: 0.5;
+    font-family: 苹方-简;
+    text-align:center;
+    margin:0 auto;
+    padding-top:15px;
+    overflow-y: hidden;
+    text-align: center;
+    border-top:2px solid #36404b;
+}
+.box_fotter{
+   width: 100%;
+   height: 600px;
+
+   margin-top:50px;
+   border-top:1px solid #4c4c4c;
+   background-color: #d3d3d3;
+}
+.box_fotter_top{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    margin:0 auto;
+    flex-direction: column;
+    margin-bottom: 4%;
+
+}
+.box_fotter_bottom{
+    width: 50%;
+    height: 40%;
+    margin-top: 5%;
+    display: flex;
+    margin:0 auto;
+  flex-direction: column;
+  font-family: PingFang SC,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,Microsoft YaHei;
+    color: #666;
+    text-align: center;
+}
+.box_fotter_top p{
+    width: 100%;
+    height: 20%;
+    font-family: PingFang SC,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,Microsoft YaHei;
+    color: #666;
+    font-size: 24px;
+    text-align: center;
+
+    
+
+}
+.box_fotter_top div{
+   width: 50%;
+  height: 80%;
+    margin:0 auto;
+
+    
+}
+.box_fotter_top  span{
+    width: 32%;
+    height: 100%;
+    display: inline-block;
+    
+    
+}
+.box_fotter_top span img{
+    width: 30%;
+    height: 100%;
+    border-radius:50%;
+    margin-left: 35%;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color:#666;
+
+}
+a:hover{
+    color:brown;
+    
+}
+.box_fotter_bottom ul{
+    font-family: PingFang SC,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,Microsoft YaHei;
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+
+
+    display: flex;
+    margin:0 auto;
+    margin-top:1%;
+
+}
+.box_fotter_bottom ul li{
+    margin-right: 10px;
+    height: 10%;
+}
+.box_fotter_bottom p:nth-child(1){
+    width: 100%;
+
+    height: 8%;
+    text-align: center;
+    color:#000;
+    margin-top:1%;
+}
+.box_fotter_bottom p:nth-child(2){
+    width: 100%;
+
+    height: 8%;
+    margin-top:1%;
+}

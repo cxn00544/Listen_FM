@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+.login-error-dialog-mask{
+  display:none;
+  position:fixed;
+  top:52px;
+  right:0;
+  left:0;
+  z-index:1000;
+  height: 615px;
+  z-index:1000;
+  background-color: rgba(0,0,0,.65);
+}
+.login-error-dialog-wrap{
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index:1000;
+  align-items:center;
+  justify-content:center;
+}
+.login-error-dialog{
+  width: 300px;
+  height:auto;
+  font-size:14px;
+  line-height: 1.5;
+  list-style:none;
+  padding-bottom:24px;
+  margin:0 auto;
+
+}
+.login-error-dialog-content{
+  width: 100%;
+  height: 104.5px;
+  border-radius:8px;
+  background-color: #fff;
+  background-clip:padding-box;
+  border:0;
+  position:relative;
+  top:230px;
+left:0px;
+
+
+
+  
+}
+.login-error-dialog-body{
+   text-align:center;
+   font-size: 15px;
+  
+
+} 
+.login-error-dialog-mag{
+  width: 100%;
+  font-size: 15px;
+  color:#666;
+ text-align:center;
+ padding-top:20px;
+ padding-bottom:20px;
+  
+}
+.login-error-dialog-ok-btn{
+  font-size: 15px;
+  color:#f40;
+  border-top:1px solid #ddd;
+  text-align:center;
+  padding-top:10px;
+}

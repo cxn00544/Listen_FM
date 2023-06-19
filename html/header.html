@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>头部文件</title>
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+  
+        <!-- 头部导航条 ：logo 首页  我的声音 下载客户端  搜索框 我的 历史 投稿 -->
+        <div class="header_nav">
+            <div class="nav_menus">
+                <div class="left_menus">
+                    <ul class="nav_menus_ul">
+						<li>
+							<a href="http://127.0.0.1:8848/web%E5%BC%80%E5%8F%91%E4%BD%9C%E5%93%81/html/index.html">首页</a>
+						</li>
+						<li>
+							<a href="#">我的声音</a>
+							
+						</li>
+						<li>
+							<a href="#">下载客户端</a>
+						</li>
+                        <li>
+							<a href="#">关注</a>
+						</li>
+              	    </ul>
+				
+                </div>
+                <div class="serach_nav">
+                    <input type="text" id="search_text" autocomplete="off" placeholder="广播剧｜音乐｜漫画｜小品" value="">
+                    <span></span>
+                </div>
+                <!-- 选择登录 -->
+                <div class="xaunzedenglu">
+                    <a href="#">登录/注册</a>
+                </div>
+                <!-- 选择退出 -->
+                <div class="right_menus">
+                    <ul class="nav_menus_ul">
+						<li>
+							<a href="#">我的</a>
+                            <ul>
+                                <li><a href="#"> <span class="my_introduce"></span>我的主页</a></li>
+                                <li><a href="#"> <span class="xinxi"></span>消息中心</a></li>
+
+                                <li><a href="#"> <span class="qianbao"></span>我的钱包</a></li>
+                                <li><a href="#"> <span class="shezhi"></span>账号设置</a></li>
+                                <li class="tuichu_btn"><a href="#"> <span class="exit"></span>退出</a></li>
+                            </ul>
+						</li>
+					
+						<li>
+							<a href="http://127.0.0.1:8848/web%E5%BC%80%E5%8F%91%E4%BD%9C%E5%93%81/html/tougao.html">投稿</a>
+						</li>
+              	    </ul>
+				
+                </div>
+        </div>
+        <div class="header_bottom">
+    
+        </div>
+        </div>
+      <div class="header_nav_two">
+        <!-- <script src="../js/header.js"></script> -->
+        <div class="wenhao">上午好</div>
+        <p>请开启你的随听之旅!</p>
+      </div>
+      <div class="box2">
+        <ul class="box2_ul">
+            <li><a href="http://127.0.0.1:8848/web%E5%BC%80%E5%8F%91%E4%BD%9C%E5%93%81/html/index.html">发现声音</a></li>
+            <li><a href="http://127.0.0.1:8848/web%E5%BC%80%E5%8F%91%E4%BD%9C%E5%93%81/html/guanboju.html">广播剧</a></li>
+            <li><a href="http://127.0.0.1:8848/web%E5%BC%80%E5%8F%91%E4%BD%9C%E5%93%81/html/manhua.html">有声漫画</a></li>
+            <li><a href="#">听相声</a></li>
+            <li><a href="#">脱口秀</a></li>
+            <li><a href="#">小品</a></li>
+            <li><a href="#">小语种</a></li>
+            <li><a href="#">铃声</a></li>
+
+        </ul>
+    </div>
+   
+</body>
+<script>
+
+window.addEventListener('load',function(){
+    var box2_ul= document.querySelector('.box2_ul');
+    var lis=box2_ul.querySelectorAll('li');
+    var tuichu_btn = document.querySelector('.tuichu_btn')
+    var right_menus = document.querySelector('.right_menus')
+    var xaunzedenglu = document.querySelector('.xaunzedenglu')
+    var tuichu_btn = document.querySelector('.tuichu_btn')
+   //点击切换按钮的颜色和变化
+    for(let i = 0; i < lis.length; i++){
+        lis[i].onclick = function(){
+            for(let i = 0; i<lis.length;i++){
+                
+                lis[i].style.backgroundColor = ''
+            }
+            this.style.backgroundColor='#f45b41';
+            
+        }
+    }
+    //分时间问候
+    var wenhao=document.querySelector('.wenhao');
+        // 得到当前的小时数
+        var date=new Date();
+        var h=date.getHours();
+        if(h<12){
+            
+            wenhao.innerHTML='早上好，今天也要加油哦！';
+        }else if(h<18){
+            
+            wenhao.innerHTML='下午好，今天辛苦啦！';
+        }else{
+         
+            wenhao.innerHTML='晚上好，晚上好好休息啦！';
+        };
+        //点击退出登录
+        tuichu_btn.onclick = function(){
+            xaunzedenglu.style.display='block'
+            right_menus.style.display='none'
+        }
+        xaunzedenglu.onclick= function(){
+            window.location.href='http://127.0.0.1:8848/web%E5%BC%80%E5%8F%91%E4%BD%9C%E5%93%81/html/login.html'
+        }
+})
+
+</script>
+</html>
